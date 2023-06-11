@@ -1,9 +1,12 @@
 # OpenWeatherMap
 Hi,
 Following are the details for my API automation plan, approach and scope.
-=>Tech: Javav17(Prerequisite), Rest Assured, Testng, Maven
-=>Scope: Automate Current weather data API and verify the responses by using asserts. 
-=>Atomation Approach:
+
+Tech: Javav17(Prerequisite), Rest Assured, Testng, Maven
+
+Scope: Automate Current weather data API and verify the responses by using asserts. 
+
+Automation Approach:
 1. I obtained the Longitude(lon) and Latitude(lat) values by automating Geocoding API and storing from the response.
 2. I used testng dataprovider to get lon and lat data for 3 cities (data set).
 3. I used the obtained data from Geocoding API's response to feed into Current weather data API's url request.
