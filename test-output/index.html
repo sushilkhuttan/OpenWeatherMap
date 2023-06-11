@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\GS\AppData\Local\Temp\testng-eclipse-160501323\testng-customsuite.xml</span>
+                    <span>C:\Users\GS\AppData\Local\Temp\testng-eclipse-866076013\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="OpenWeatherAPI" class="method navigator-link" hash-for-method="GetWeather">GetWeather</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="OpenWeatherAPI" class="method navigator-link" hash-for-method="getLongLat(Madrid)">getLongLat(Madrid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,6 +148,14 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="getLongLat(Madrid)">
+                  </a> <!-- getLongLat(Madrid) -->
+                  <span class="method-name">getLongLat</span>
+                  <span class="parameters">(Madrid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="getLongLat(London)">
                   </a> <!-- getLongLat(London) -->
                   <span class="method-name">getLongLat</span>
@@ -162,7 +175,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\GS\AppData\Local\Temp\testng-eclipse-160501323\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\GS\AppData\Local\Temp\testng-eclipse-866076013\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -211,19 +224,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getLongLat')
 data.setCell(0, 2, 'OpenWeatherAPI')
-data.setCell(0, 3, 1157);
+data.setCell(0, 3, 1541);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'getLongLat')
 data.setCell(1, 2, 'OpenWeatherAPI')
-data.setCell(1, 3, 232);
+data.setCell(1, 3, 254);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'GetWeather')
+data.setCell(2, 1, 'getLongLat')
 data.setCell(2, 2, 'OpenWeatherAPI')
-data.setCell(2, 3, 5);
+data.setCell(2, 3, 173);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GetWeather')
+data.setCell(3, 2, 'OpenWeatherAPI')
+data.setCell(3, 3, 7);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -261,11 +278,15 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getLongLat(London)</span>
-                <span class="method-start">9 ms</span>
+                <span class="method-start">11 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getLongLat(Chicago)</span>
-                <span class="method-start">1167 ms</span>
+                <span class="method-start">1553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getLongLat(Madrid)</span>
+                <span class="method-start">1808 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
