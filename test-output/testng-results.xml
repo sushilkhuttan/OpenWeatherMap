@@ -1,43 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-11T04:16:19 BST" name="Default suite" finished-at="2023-06-11T04:16:21 BST" duration-ms="2002">
+  <suite started-at="2023-06-11T22:34:56 BST" name="Default suite" finished-at="2023-06-11T22:34:58 BST" duration-ms="1874">
     <groups>
     </groups>
-    <test started-at="2023-06-11T04:16:19 BST" name="Default test" finished-at="2023-06-11T04:16:21 BST" duration-ms="2002">
+    <test started-at="2023-06-11T22:34:56 BST" name="Default test" finished-at="2023-06-11T22:34:58 BST" duration-ms="1874">
       <class name="OpenWeatherAPI">
-        <test-method signature="GetWeather()[pri:0, instance:OpenWeatherAPI@5a67e962]" started-at="2023-06-11T04:16:19 BST" name="GetWeather" finished-at="2023-06-11T04:16:19 BST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetWeather -->
-        <test-method signature="getLongLat(java.lang.String)[pri:0, instance:OpenWeatherAPI@5a67e962]" started-at="2023-06-11T04:16:19 BST" name="getLongLat" data-provider="dataprovider" finished-at="2023-06-11T04:16:21 BST" duration-ms="1541" status="PASS">
+        <test-method signature="getLongLat(java.lang.String,java.lang.String)[pri:0, instance:OpenWeatherAPI@6d4c273c]" started-at="2023-06-11T22:34:56 BST" name="getLongLat" data-provider="dataprovider" finished-at="2023-06-11T22:34:57 BST" duration-ms="1349" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[London]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getLongLat -->
-        <test-method signature="getLongLat(java.lang.String)[pri:0, instance:OpenWeatherAPI@5a67e962]" started-at="2023-06-11T04:16:21 BST" name="getLongLat" data-provider="dataprovider" finished-at="2023-06-11T04:16:21 BST" duration-ms="254" status="PASS">
-          <params>
-            <param index="0">
+            <param index="1">
               <value>
-                <![CDATA[Chicago]]>
+                <![CDATA[metric]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLongLat -->
-        <test-method signature="getLongLat(java.lang.String)[pri:0, instance:OpenWeatherAPI@5a67e962]" started-at="2023-06-11T04:16:21 BST" name="getLongLat" data-provider="dataprovider" finished-at="2023-06-11T04:16:21 BST" duration-ms="173" status="PASS">
+        <test-method signature="getLongLat(java.lang.String,java.lang.String)[pri:0, instance:OpenWeatherAPI@6d4c273c]" started-at="2023-06-11T22:34:57 BST" name="getLongLat" data-provider="dataprovider" finished-at="2023-06-11T22:34:57 BST" duration-ms="279" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Madrid]]>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[imperial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLongLat -->
+        <test-method signature="getLongLat(java.lang.String,java.lang.String)[pri:0, instance:OpenWeatherAPI@6d4c273c]" started-at="2023-06-11T22:34:57 BST" name="getLongLat" data-provider="dataprovider" finished-at="2023-06-11T22:34:58 BST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[imperial]]>
               </value>
             </param>
           </params>

@@ -5,7 +5,7 @@
     <classes>
       <class name="OpenWeatherAPI">
         <methods>
-          <include name="getLongLat" invocation-numbers="2"/>
+          <include name="getLongLat"/>
         </methods>
       </class> <!-- OpenWeatherAPI -->
     </classes>
