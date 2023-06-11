@@ -2,7 +2,7 @@
 Hi,
 Following are the details for my API automation plan, approach and scope.
 
-Tech: Javav17(Prerequisite), Rest Assured, Testng, Maven
+Tech: Java v17(Prerequisite), Rest Assured, Testng, Maven
 
 Scope: Automate Current weather data API and verify the responses by using asserts. 
 
