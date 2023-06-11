@@ -1,11 +1,9 @@
 # OpenWeatherMap
 Hi,
 Following are the details for my API automation plan, approach and scope.
-Tech: Javav17(Prerequisite), Rest Assured, Testng, Maven
-Automation approach:I have automated 2 apis.
-Scope:
-Automate Current weather data API and verify the responses by using asserts. 
-Approach:
+=>Tech: Javav17(Prerequisite), Rest Assured, Testng, Maven
+=>Scope: Automate Current weather data API and verify the responses by using asserts. 
+=>Atomation Approach:
 1. I obtained the Longitude(lon) and Latitude(lat) values by automating Geocoding API and storing from the response.
 2. I used testng dataprovider to get lon and lat data for 3 cities (data set).
 3. I used the obtained data from Geocoding API's response to feed into Current weather data API's url request.
@@ -18,11 +16,12 @@ InScope tests:
 3. Boundary level testing. Example - visibility field has max defined value of 10 kms
 4. Check the units with Imperial and Metric
  
-Out of Scope:
+Out of Scope for current test:
 1. Geocoding API testing 
 2. Negative cases but not in this exercise. 
 3. Database testing but not in this exercise.
 4. Performance/Stress testing but not in this exercise.
+5. Weather parameters based on id
 
 How to execute:
 Please Run as TestNg test
